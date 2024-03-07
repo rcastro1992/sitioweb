@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./img/favicon-16.ico">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- elementos redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <header>
+    <!-- inicio Barra de Navegacion -->
+    <!-- Incluye la barra de navegación -->
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+  <!-- fin Barra de Navegacion -->
+</header>
+<!--- ccvngnv-->
+<section class="contact-us  py-5">
+  <div class="container">
+    <p class=>
+      <strong>Yo, entiendo claramente y autorizo a Gps Technology Soluciones en Seguridad, para el manejo de mis datos personales que doy en la atención de la prestación de los servicios de acuerdo con la política de manejo de datos personales que está publicada en la página web www.gpstechnology.com.co </strong><a href="politicas.html">Ir a Politicas de privacidad</a>
+    </p>
+    <hr>
+  </div>
+    <div class="container border rounded">
+        <h2 class="text-center my-5">Contáctanos</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/mqkvlzew" 
+                    method="post" 
+                    enctype="multipart/form-data"
+                    >
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" class="form-control" name="Nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Apellido</label>
+                            <input type="text" id="name" class="form-control" name="Apellido" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" class="form-control" name="E-mail" placeholder="Correo Electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="direction">Dirección </label>
+                            <input type="text" id="direccion" class="form-control" name="Direccion" placeholder="Dirección de Contacto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefono</label>
+                            <input type="tel" id="phone" class="form-control" name="Telefono" placeholder="Numero de Teléfono" required>
+                        </div>
+                        <div class="12u 12u(narrower)">
+                            <label for="phone">Asunto</label>
+                            <div class="select-wrapper">
+                                <select name="Asunto" id="category" required="required">
+                                    <option value="" disabled selected>--Seleccione--</option>
+                                    <option value="Soporte tecnico">Soporte técnico</option>
+                                    <option value="Administracion">Ventas</option>
+                                    <option value="Peticio">Petición</option>
+                                    <option value="Queja">Queja</option>
+                                    <option value="Reclamo">Reclamo</option>
+                                    <option value="Solicitud">Solicitud</option>
+                                    <option value="Solicitud">Felicitaciones</option>
+                                    <option value="Recursos Humanos">Recursos humanos</option>
+                                    <option value="Proyectos">Proyectos</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" class="form-control" name="Mensaje" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary my-2">Enviar Mensaje</button>
+
+                        <button type="reset" class="btn btn-primary my-2">Limpiar formulario</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <hr>
+                    <p class="bi bi-house-door"> Direccion.</p>                    
+                    <a class="text-decoration-none text-dark " href="https://goo.gl/maps/fY88QBYmCa2RZNPA8">Cra.44#40d-24, Soledad Atlantico, Colombia</a><hr>
+                    <p class="bi bi-telephone"> Telefono:</p>
+                    <p class=""> (5) En Mantenimiento </p>
+                    <hr>
+                    <p class="bi bi-phone"> Celular:</p>
+                    <p class=""> (+57) 313-557-7841</p>
+                    <hr>                    
+                    <p class="bi bi-whatsapp">  Whatsapp:</p>
+                    <p>(+57) 324-279-3687</p>
+                    <hr>
+                    <p class="bi bi-envelope"> Correo Electrónico:</p>
+                    <p class=" text-dark">gps.tecnology@hotmail.com</p>
+                    <hr>
+                    <div class="text-center">
+                      <img src="img/logo y nombre .png" alt="logo empresa" width="200" class="mb-3 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!--Seccion de Descarga de Aplicaciones-->
+<div class="container">
+    <div class="download-links text-center">
+        <h2>Descarga Nuestra Aplicación</h2>
+        <p>Disfruta de nuestros servicios en cualquier lugar.</p>
+    </div>
+    <div class="row text-center">
+        <div class="col-12 col-md-6 col-lg-4  mr-2 ">
+            <a href="https://itunes.apple.com/us/app/gpswox-mobile-client/id1092866204?mt=8" class="download-button-ios">
+                <img src="img/App Store.png" alt="Descargar en App Store" width="180">
+                <p>Descargar en App Store</p>
+            </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mr-2">
+            <a href="https://play.google.com/store/apps/details?id=com.gpspro.technology&hl=es" class="download-button-android">
+                <img src="img/Play_Store.png" alt="Descargar en Google Play" width="180">
+                <p>Descargar en Google Play</p>
+            </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mr-2">
+            <a href="apk/App apagado flotante.apk" class="download-button-android">
+                <img src="img/Apk Android.png" alt="Descargar en Pagina Web" width="180">
+                <p>Descargar en Pagina web</p>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Sección de Preguntas Frecuentes -->
+<section class="faq py-5">
+    <div class="container  bg-light">
+    <h2 class="text-center my-3">Preguntas Frecuentes</h2>
+    <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Cómo funcionan los sistemas de seguridad satelital?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Los sistemas de seguridad satelital utilizan tecnología de satélites para rastrear, comunicarse y proporcionar alertas en tiempo real. Esto permite el monitoreo y la protección de activos, personas o vehículos en áreas remotas o sin cobertura de red.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Qué ventajas ofrece la seguridad satelital?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>La seguridad satelital ofrece ventajas como la cobertura global, la capacidad de seguimiento en tiempo real, la comunicación en áreas remotas y la capacidad de respuesta rápida en situaciones de emergencia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Cómo puedo obtener servicios de seguridad satelital?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Puedes obtener servicios de seguridad satelital contactando a una empresa especializada como Gps technology. Ofrecemos soluciones personalizadas para empresas, viajeros y familias. ¡Contáctanos para obtener más información!.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- Sección de Testimonios -->
+<section class="testimonials bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Lo que dicen nuestros clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial text-center my-5">
+                    <img src="img/user4.jpg" alt="Cliente 1"height="200" width="400" class="img-fluid my-3">
+                    <p>"Gps technology ha sido un socio confiable para proteger nuestra flota de vehículos en áreas remotas. Su tecnología satelital es impresionante y su equipo es altamente profesional."</p>
+                    <cite>John Doe, CEO de XYZ Company</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial text-center my-5">
+                    <img src="img/user6.png" alt="Cliente 2" height="200" width="400" class="img-fluid my-3">
+                    <p>"Estoy encantado con los servicios de Gps technology. Me siento mucho más seguro cuando viajo a lugares remotos gracias a su tecnología de seguimiento satelital."</p>
+                    <cite>Jane Smith, Viajera Aventurera</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial text-center my-5">
+                    <img src="img/user7.png" alt="Cliente 3" height="200" width="400" class="img-fluid my-3">
+                    <p>"Gps technology ha mejorado significativamente nuestra seguridad en eventos masivos. Su respuesta rápida y sus sistemas avanzados son invaluables."</p>
+                    <cite>Mary Johnson, Coordinadora de Eventos</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Seccion de Redes Sociales-->
+<section class="social-media">
+    <h2>Síguenos en redes sociales</h2>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/GPSTECHNOLOGYSOLUCIONESENSEGURIDAD?mibextid=ZbWKwL" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com/foryou?lang=es" target="_blank">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/gps.technology/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://wa.me/message/KLZJV353HO4BC1" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </li>
+        <!-- Agrega más redes sociales según tu necesidad -->
+    </ul>
+</section>
+
+
+<!-- place footer here -->
+<!-- place footer here -->
+<footer>
+  <!-- Incluye el footer -->
+<div id="footer-placeholder"></div>
+<script>
+   fetch('footer.html')
+       .then(response => response.text())
+       .then(data => {
+           document.getElementById('footer-placeholder').innerHTML = data;
+       });
+</script>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="navbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CONTROL DE ACCESO</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="img/favicon-16.ico">
+  
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+      <!-- font-awesome v6.4.2 -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- link de estilos -->
+    <link rel= "stylesheet" href="./css/carruselservi.css">
+    <link rel= "stylesheet" href="./css/style.css">
+    <!-- link de iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <header>
+    <!-- inicio Barra de Navegacion -->
+    <!-- Incluye la barra de navegación -->
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+  </header>
+  <main>
+
+    <!--Seccion de Descarga de Aplicaciones-->
+<div class="container">
+  <div class="download-links text-center">
+      <h2>Descarga Nuestra Aplicación</h2>
+      <p>Disfruta de nuestros servicios en cualquier lugar.</p>
+  </div>
+  <div class="row text-center">
+      <div class="col-12 col-md-6 col-lg-4  mr-2 ">
+          <a href="https://itunes.apple.com/us/app/gpswox-mobile-client/id1092866204?mt=8" class="download-button-ios">
+              <img src="img/App Store.png" alt="Descargar en App Store" width="180">
+              <p>Descargar en App Store</p>
+          </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mr-2">
+          <a href="https://play.google.com/store/apps/details?id=com.gpspro.technology&hl=es" class="download-button-android">
+              <img src="img/Play_Store.png" alt="Descargar en Google Play" width="180">
+              <p>Descargar en Google Play</p>
+          </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mr-2">
+          <a href="apk/App apagado flotante.apk" class="download-button-android">
+              <img src="img/Apk Android.png" alt="Descargar en Pagina web" width="180">
+              <p>Descargar en Pagina web</p>
+          </a>
+      </div>
+  </div>
+</div>
+</div>
+<!-- Sección de Preguntas Frecuentes -->
+<section class="faq py-5">
+  <div class="container  bg-light">
+  <h2 class="text-center my-3">Preguntas Frecuentes</h2>
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          ¿Cómo funcionan los sistemas de seguridad satelital?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Los sistemas de seguridad satelital utilizan tecnología de satélites para rastrear, comunicarse y proporcionar alertas en tiempo real. Esto permite el monitoreo y la protección de activos, personas o vehículos en áreas remotas o sin cobertura de red.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Qué ventajas ofrece la seguridad satelital?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>La seguridad satelital ofrece ventajas como la cobertura global, la capacidad de seguimiento en tiempo real, la comunicación en áreas remotas y la capacidad de respuesta rápida en situaciones de emergencia.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          ¿Cómo puedo obtener servicios de seguridad satelital?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Puedes obtener servicios de seguridad satelital contactando a una empresa especializada como Gps technology. Ofrecemos soluciones personalizadas para empresas, viajeros y familias. ¡Contáctanos para obtener más información!.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+<!-- Sección de Testimonios -->
+<section class="testimonials bg-light py-5">
+  <div class="container">
+      <h2 class="text-center">Lo que dicen nuestros clientes</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="testimonial text-center my-5">
+                  <img src="img/user4.jpg" alt="Cliente 1"height="200" width="400" class="img-fluid my-3">
+                  <p>"Gps technology ha sido un socio confiable para proteger nuestra flota de vehículos en áreas remotas. Su tecnología satelital es impresionante y su equipo es altamente profesional."</p>
+                  <cite>John Doe, CEO de XYZ Company</cite>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="testimonial text-center my-5">
+                  <img src="img/user6.png" alt="Cliente 2" height="200" width="400" class="img-fluid my-3">
+                  <p>"Estoy encantado con los servicios de Gps technology. Me siento mucho más seguro cuando viajo a lugares remotos gracias a su tecnología de seguimiento satelital."</p>
+                  <cite>Jane Smith, Viajera Aventurera</cite>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="testimonial text-center my-5">
+                  <img src="img/user7.png" alt="Cliente 3" height="200" width="400" class="img-fluid my-3">
+                  <p>"Gps technology ha mejorado significativamente nuestra seguridad en eventos masivos. Su respuesta rápida y sus sistemas avanzados son invaluables."</p>
+                  <cite>Mary Johnson, Coordinadora de Eventos</cite>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--Seccion de Redes Sociales-->
+<section class="social-media">
+  <h2>Síguenos en redes sociales</h2>
+  <ul>
+      <li>
+          <a href="https://www.facebook.com/GPSTECHNOLOGYSOLUCIONESENSEGURIDAD?mibextid=ZbWKwL" target="_blank">
+              <i class="fab fa-facebook"></i>
+          </a>
+      </li>
+      <li>
+          <a href="https://www.tiktok.com/foryou?lang=es" target="_blank">
+              <i class="fab fa-tiktok"></i>
+          </a>
+      </li>
+      <li>
+          <a href="https://www.instagram.com/gps.technology/" target="_blank">
+              <i class="fab fa-instagram"></i>
+          </a>
+      </li>
+      <li>
+          <a href="https://wa.me/message/KLZJV353HO4BC1" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+          </a>
+      </li>
+      <!-- Agrega más redes sociales según tu necesidad -->
+  </ul>
+</section>
+  </main>
+  <!-- place footer here -->
+  <footer>
+    <!-- Incluye el footer -->
+ <div id="footer-placeholder"></div>
+ <script>
+     fetch('footer.html')
+         .then(response => response.text())
+         .then(data => {
+             document.getElementById('footer-placeholder').innerHTML = data;
+         });
+ </script>
+</footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <!-- Incluye el archivo JavaScript de la barra de navegación (si es necesario) -->
+  <script src="navbar.js"></script>
+</body>
+
+</html>

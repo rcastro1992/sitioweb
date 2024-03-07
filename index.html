@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS TECHNOLOGY</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-16.ico">
+    <!-- Enlaza los archivos CSS de Bootstrap y tu CSS personalizado aquí -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+   
+    <!--estilos personalizados-->
+    <link rel="stylesheet" href="css/stylecookie.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <!-- Inicio Navbar de Bootstrap -->
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+        <!---Inicion carousel #1-->
+  <section class="portada center">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/afilia tu carro hoy.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p>Control y Seguridad las 24 horas del dia.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Plataforma Satelital</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> 
+  <!---Fin carousel #1-->     
+        <!-- Banner principal -->
+        <section class="banner text-center my-5">
+            <div class="container">
+                <h1>Tu Protección en Órbita</h1>
+                <p class="lead">Protegemos lo que más importa con soluciones de seguridad satelital avanzadas.</p>
+                <!-- Botón de Bootstrap -->
+                <a href="https://api.whatsapp.com/send?phone=3135577841&text=Hola, requiero una cotizacion de."  target="_blank" class="btn btn-primary btn-lg">Obtener una Cotización</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Resto de tu contenido HTML -->
+    
+    <!-- Sección de Servicios -->
+<section class="services bg-light py-5">
+    <div class="container">
+        <h2 class="text-center my-3">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="service text-center">
+                    <img src="img/proteccion vehicular.png"class="img-fluid my-2"  alt="Servicio 1"width="400" height="200" >
+                    <h3>Servicio de Rastreo</h3>
+                    <p>Ofrecemos rastreo satelital de alta precisión para vehículos, activos y personas. Mantén un control total en tiempo real.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="service text-center">
+                    <img src="img/seguridad en la comunicacion.png"class=" img-fluid my-2"  alt="Servicio 2" width="400" height="200" >
+                    <h3>Comunicaciones Segura y Estable con tu Vehiculo</h3>
+                    <p>Garantizamos comunicaciones seguras y confiables en cualquier parte del mundo con tu vehiculo.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="service text-center">
+                    <img src="img/seguridad hogar.png" alt="Servicio 3" width="400" height="200" class="img-fluid my-2">
+                    <h3>Camaras de Seguridad</h3>
+                    <p>Monitorea la viviendad en tiempo real desde el celular y Recibe alertas instantáneas sobre cualquier evento importante, desde movimientos no autorizados hasta condiciones peligrosas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Soluciones -->
+<section class="solutions py-5">
+    <div class="container">
+        <h2 class="text-center my-5">Nuestras Soluciones</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <div class="solution text-center">
+                    <img src="img/proteccion de flota camion.png" alt="Solución 1" width="400" height="200" class="img-fluid my-2">
+                    <h3>Seguridad para Empresas</h3>
+                    <p>Personalizamos soluciones de seguridad satelital para empresas en entornos remotos o de alto riesgo. Protege tus activos y empleados.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <div class="solution text-center">
+                    <img src="img/proteccion a viajero.png" alt="Solución 2" width="400" height="200" class="img-fluid my-2">
+                    <h3>Seguridad para Viajes</h3>
+                    <p>Proporcionamos seguridad y tranquilidad a viajeros aventureros en lugares remotos. Disfruta de tus aventuras con confianza.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <div class="solution text-center">
+                    <img src="img/proteccion familiar.png" alt="Solución 3" width="400" height="200" class="img-fluid my-2">
+                    <h3>Seguridad para Familias</h3>
+                    <p>Protegemos a tu familia con servicios de seguimiento y alertas en tiempo real. Mantén a tus seres queridos a salvo en todo momento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de Acerca de Nosotros -->
+<section class="about-us bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Acerca de Nosotros</h2>
+        <p>Gps technology, es una empresa líder en seguridad satelital que se dedica a proteger lo que más importa. Nuestra misión es proporcionar soluciones de seguridad avanzadas y confiables utilizando la tecnología satelital más avanzada.</p>
+        <p>Con años de experiencia en el campo, hemos ayudado a empresas, viajeros y familias a mantenerse seguros en cualquier parte del mundo. Nuestro equipo de expertos en seguridad está comprometido con tu tranquilidad y protección.</p>
+    </div>
+</section>
+
+
+<!-- Sección de Servicios Destacados -->
+<section class="featured-services py-5">
+    <div class="container">
+        <h2 class="text-center my-5">Servicios Destacados</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <div class="featured-service text-center">
+                    <img src="img/servicio1.jpg" alt="Servicio Destacado 1" width="400" height="200" class=" img-fluid my-2">
+                    <h3>Rastreo de Vehículos</h3>
+                    <p>Monitoreo en tiempo real de flotas de vehículos con alertas y notificaciones en caso de desviaciones no autorizadas.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <div class="featured-service text-center">
+                    <img src="img/proteccion vehicular.png" alt="Servicio Destacado 2" width="400" height="200" class=" img-fluid my-2">
+                    <h3>Seguridad en Eventos</h3>
+                    <p>Proporcionamos seguridad satelital en eventos y situaciones críticas, garantizando una respuesta rápida y eficaz.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <div class="featured-service text-center">
+                    <img src="img/proteccion familiar.png" alt="Servicio Destacado 3" width="400" height="200" class="img-fluid my-2">
+                    <h3>Seguimiento de Personas</h3>
+                    <p>Ofrecemos soluciones de seguimiento y localización para personas, ideal para viajeros y trabajadores en solitario.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Seccion de Descarga de Aplicaciones-->
+<div class="container">
+        <div class="download-links text-center">
+            <h2>Descarga Nuestra Aplicación</h2>
+            <p>Disfruta de nuestros servicios en cualquier lugar.</p>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-6 col-lg-4  mr-2 ">
+                <a href="https://itunes.apple.com/us/app/gpswox-mobile-client/id1092866204?mt=8" class="download-button-ios">
+                    <img src="img/App Store.png" alt="Descargar en App Store" width="180">
+                    <p>Descargar en App Store</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <a href="https://play.google.com/store/apps/details?id=com.gpspro.technology&hl=es" class="download-button-android">
+                    <img src="img/Play_Store.png" alt="Descargar en Google Play" width="180">
+                    <p>Descargar en Google Play</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mr-2">
+                <a href="apk/App apagado flotante.apk" class="download-button-android">
+                    <img src="img/Apk Android.png" alt="Descargar en Pagina web" width="180">
+                    <p>Descargar en Pagina web</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sección de Preguntas Frecuentes -->
+<section class="faq py-5">
+    <div class="container  bg-light">
+  <h2 class="text-center my-3">Preguntas Frecuentes</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Cómo funcionan los sistemas de seguridad satelital?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Los sistemas de seguridad satelital utilizan tecnología de satélites para rastrear, comunicarse y proporcionar alertas en tiempo real. Esto permite el monitoreo y la protección de activos, personas o vehículos en áreas remotas o sin cobertura de red.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Qué ventajas ofrece la seguridad satelital?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>La seguridad satelital ofrece ventajas como la cobertura global, la capacidad de seguimiento en tiempo real, la comunicación en áreas remotas y la capacidad de respuesta rápida en situaciones de emergencia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Cómo puedo obtener servicios de seguridad satelital?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Puedes obtener servicios de seguridad satelital contactando a una empresa especializada como Gps technology. Ofrecemos soluciones personalizadas para empresas, viajeros y familias. ¡Contáctanos para obtener más información!.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+<!-- Sección de Blog -->
+<section class="blog py-5">
+    <div class="container">
+        <h2 class="text-center my-3">Nuestro Blog</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <img src="img/proteccion a viajero.png" alt="Artículo 1" width="400" height="300" class="img-fluid">
+                    <h3>Seguridad Satelital en Viajes: Consejos Importantes</h3>
+                    <p class="meta">Por Raul Sanchez - 2022-05-10</p>
+                    <p>Descubre cómo la seguridad satelital puede brindarte tranquilidad en tus aventuras y viajes a lugares remotos.</p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <img src="img/proteccion de flota camion.png" alt="Artículo 2" width="400" height="300" class="img-fluid">
+                    <h3>Protegiendo Tu Flota de Vehículos con Tecnología Satelital</h3>
+                    <p class="meta">Por Maria Aritizabal - 2022-08-4</p>
+                    <p>Explora cómo la seguridad satelital puede mejorar la gestión y protección de tu flota de vehículos empresariales.</p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <img src="img/proteccion de persona.png" alt="Artículo 3" width="400" height="300" class="img-fluid">
+                    <h3>¿Por qué Elegir la Seguridad Satelital para tu Familia?</h3>
+                    <p class="meta">Por Karol Ramirez - 2023-08-22</p>
+                    <p>Descubre las razones por las que la seguridad satelital es una elección inteligente para proteger a tu familia en cualquier lugar.</p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de Contáctanos -->
+
+</section>
+<!-- Sección de Galería de Imágenes -->
+<section class="image-gallery py-5">
+    <div class="container">
+        <h2 class="text-center my-2">Galería de Imágenes</h2>
+        <div class="row">
+            <div class=" col-12 col-md-6 col-lg-4 my-3">
+                <div class="gallery-item">
+                    <img src="img/gps 403.jpg.png" alt="Imagen 1" width="400" height="400" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="gallery-item">
+                    <img src="img/gps box-track.png" alt="Imagen 2" width="400" height="400" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="gallery-item">
+                    <img src="img/ax4 instalacion.jpg.png" alt="Imagen 3" width="400" height="400" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="gallery-item">
+                    <img src="img/instalacion en moto.png" alt="Imagen 4" width="400" height="400" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="gallery-item">
+                    <img src="img/instalacion en motocarro.png" alt="Imagen 5" width="400" height="400" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="gallery-item">
+                    <img src="img/instalacion en dimax.png"alt="Imagen 5" width="400" height="400" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Cookies-->
+<div id="cookie-banner" class="cookie-banner">
+    <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario. Puedes aceptar o rechazar las cookies y revisar nuestra <a href="politicas_cookies.html">política de cookies</a> para obtener más información.</p>
+    <div class="cookie-options">
+        <button id="accept-cookies">Aceptar</button>
+        <button id="reject-cookies">Rechazar</button>
+        <a href="politicas_cookies.html">Revisar cookies</a>
+    </div>
+</div>
+
+<!-- Sección de Testimonios -->
+<section class="testimonials bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Lo que dicen nuestros clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial text-center my-5">
+                    <img src="img/user4.jpg" alt="Cliente 1"height="200" width="400" class="img-fluid my-3">
+                    <div class="col ">
+                        <h6>Calificacion:</h6>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <h6>4.5</h6>
+                    </div>
+                    <p>"Gps technology ha sido un socio confiable para proteger nuestra flota de vehículos en áreas remotas. Su tecnología satelital es impresionante y su equipo es altamente profesional."</p>
+                    <cite>John Doe, CEO de XYZ Company</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial text-center my-5">
+                    <img src="img/user6.png" alt="Cliente 2" height="200" width="400" class="img-fluid my-3">
+                    <div class="col">
+                        <h6>Calificacion:</h6>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <h6>5.0</h6>
+                    </div>
+                    <p>"Estoy encantado con los servicios de Gps technology. Me siento mucho más seguro cuando viajo a lugares remotos gracias a su tecnología de seguimiento satelital."</p>
+                    <cite>Jane Smith, Viajera Aventurera</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial text-center my-5">
+                    <img src="img/user7.png" alt="Cliente 3" height="200" width="400" class="img-fluid my-3">
+                    <div class="col">
+                        <h6>Calificacion:</h6>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <h6>5.0</h6>
+                        </div>
+                    <p>"Gps technology ha mejorado significativamente nuestra seguridad en eventos masivos. Su respuesta rápida y sus sistemas avanzados son invaluables."</p>
+                    <cite>Mary Johnson, Coordinadora de Eventos</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Boton de Whatsapp Flotante-->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+573135577841", // Reemplaza con tu número de WhatsApp
+            call_to_action: "¡Contáctanos por WhatsApp!",
+            position: "right",
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- Pie de página con cuatro columnas -->
+<!-- Incluye tus políticas, términos y condiciones, y otra información relevante aquí -->
+
+
+
+
+</section>
+
+<footer>
+    <!-- Incluye el footer -->
+ <div id="footer-placeholder"></div>
+ <script>
+     fetch('footer.html')
+         .then(response => response.text())
+         .then(data => {
+             document.getElementById('footer-placeholder').innerHTML = data;
+         });
+ </script>
+</footer>
+    <!-- Scripts de Bootstrap y JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="navbar.js"></script>
+    
+</body>
+</html>

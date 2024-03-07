@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Carrusel de Tarjetas</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Carrusel de Tarjetas</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores de Carrusel -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Diapositivas del Carrusel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <img src="https://picsum.photos/200" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Tarjeta 1</h5>
+                            <p class="card-text">Descripción de la tarjeta 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="https://picsum.photos/200" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tarjeta 2</h5>
+                            <p class="card-text">Descripción de la tarjeta 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="https://picsum.photos/200" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Tarjeta 3</h5>
+                            <p class="card-text">Descripción de la tarjeta 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles del Carrusel -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

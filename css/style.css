@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+.social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media h2 {
+    font-size: 24px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333; /* Color de íconos */
+}
+
+.social-media a:hover {
+    color: #007BFF; /* Cambia el color al pasar el cursor por encima */
+}
+
+
+/*formulario de contacto*/
+.form-group{
+    
+    margin-bottom: 20px;
+}
+.form-select{
+    margin-bottom: 10px;
+    grid: gap 40px;
+}
